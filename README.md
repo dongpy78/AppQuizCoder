@@ -28,12 +28,12 @@
     <tr>
       <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Started.png" />
+          <img alt="Raydiance" width="414" height="736" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Started.png" />
         </a>
       </td>
        <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Topic.png" />
+          <img alt="Raydiance" width="414" height="736" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Topic.png" />
         </a>
       </td>
     </tr>
@@ -47,12 +47,12 @@
     <tr>
       <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/QuizCoder.png" />
+          <img alt="Raydiance" width="414" height="736" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/QuizCoder.png" />
         </a>
       </td>
        <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Grade.png" />
+          <img alt="Raydiance" width="414" height="736" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Grade.png" />
         </a>
       </td>
     </tr>
