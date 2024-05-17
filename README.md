@@ -1,9 +1,5 @@
 
 
-<h2>
-  <img alt="GIF" src="https://github.com/dongpy78/Image-github/blob/main/Artboard%201.png" width="100%"/>  
-</h2>
-
 <div align="center">
   <h3>😘 Dự Án Cá Nhân - Lập Trình Di Động </h3>
 </div>
@@ -13,12 +9,12 @@
     <tr>
       <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau1_AppCalculator.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/image_kiemtra_didong/Screenshot%202024-03-25%20200129.png" />
+          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/%C4%90%C4%83ng%20K%C3%BD.png" />
         </a>
       </td>
       <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau2_AppTravelVietNam.md">
-          <img width="350" height="500" alt="Synthwave Drive" src="https://github.com/dongpy78/Image-github/blob/main/image/image_kiemtra_didong/Screenshot%202024-03-25%20201411.png" />
+          <img width="350" height="500" alt="Synthwave Drive" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/%C4%90%C4%83ng%20Nh%E1%BA%ADp.png" />
         </a>
       </td>
     </tr>
@@ -32,12 +28,12 @@
     <tr>
       <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/image_kiemtra_didong/Screenshot%202024-03-25%20231123.png" />
+          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Started.png" />
         </a>
       </td>
        <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/image_kiemtra_didong/Screenshot%202024-03-25%20231123.png" />
+          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Topic.png" />
         </a>
       </td>
     </tr>
@@ -51,18 +47,18 @@
     <tr>
       <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/image_kiemtra_didong/Screenshot%202024-03-25%20231123.png" />
+          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/QuizCoder.png" />
         </a>
       </td>
        <td>
         <a target="_blank" href="https://github.com/dongpy78/Image-github/blob/main/Cau3_ThongTinCaNhan.md">
-          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/image_kiemtra_didong/Screenshot%202024-03-25%20231123.png" />
+          <img alt="Raydiance" width="350" height="500" src="https://github.com/dongpy78/Image-github/blob/main/image/anh_readme_du_an_ca_nhan/Grade.png" />
         </a>
       </td>
     </tr>
     <tr>
-      <td>Start Quiz</td>   
-      <td>Topic</td>    
+      <td>Questions</td>   
+      <td>Grade</td>    
     </tr>      
   </tbody>
   
