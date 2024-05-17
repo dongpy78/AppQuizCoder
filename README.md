@@ -19,8 +19,8 @@
       </td>
     </tr>
     <tr>
-      <td>Đăng Ký</td>
-      <td>Đăng Nhập</td>
+      <td>Giao Diện Đăng Ký</td>
+      <td>Gieo Diện Đăng Nhập</td>
     </tr>
   </tbody>
 
@@ -38,8 +38,8 @@
       </td>
     </tr>
     <tr>
-      <td>Start Quiz</td>   
-      <td>Topic</td>    
+      <td>Giao Diện Bắt Đầu </td>   
+      <td>Giao Diện Các Chủ Đề</td>    
     </tr>      
   </tbody>
 
@@ -57,8 +57,8 @@
       </td>
     </tr>
     <tr>
-      <td>Questions</td>   
-      <td>Grade</td>    
+      <td>Giao Diện Các Câu Hỏi</td>   
+      <td>Giao Diện Kết Quả</td>    
     </tr>      
   </tbody>
   
