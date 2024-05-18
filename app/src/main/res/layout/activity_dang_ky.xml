@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="QUIZCODER"
+        android:text="@string/quizcoder"
         android:fontFamily="@font/ninito_extra_bold"
         android:textSize="44sp"/>
 
@@ -60,7 +60,6 @@
             android:layout_height="wrap_content"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-
     <Button
         android:id="@+id/sign_up"
         android:layout_width="match_parent"
@@ -95,7 +94,6 @@
             android:textSize="15sp"
             android:layout_marginStart="10dp"
             android:textColor="@color/blue"/>
-
     </LinearLayout>
 
 </LinearLayout>
