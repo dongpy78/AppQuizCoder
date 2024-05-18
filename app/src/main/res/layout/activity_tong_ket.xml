@@ -1,9 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_gradient_topic"
     tools:context=".TongKetActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/react_img" />
+
+    <TextView
+        android:id="@+id/text_result_percent"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#f1f3f5"
+        android:textSize="24sp"
+        android:layout_below="@+id/logo_img"
+        android:text="Hello World!"
+        android:fontFamily="@font/nunito"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_high_score"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#f1f3f5"
+        android:textSize="22sp"
+
+        android:layout_below="@+id/text_result_percent"
+        android:text="Hello World!"
+        android:fontFamily="@font/nunito"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_high_score"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/nunito"
+        android:gravity="center"
+        android:text="You are doing well but a little of work will make you better"
+        android:textColor="#f1f3f5"
+        android:textSize="20sp" />
+
+    <android.widget.Button
+        android:id="@+id/btn_again"
+
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_evaluate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg_button_next_exit"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:fontFamily="@font/nunito"
+        android:textColor="#f1f3f5"
+        android:text="Play Game Again 💪"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
