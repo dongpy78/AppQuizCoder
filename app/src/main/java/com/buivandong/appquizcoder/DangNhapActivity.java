@@ -63,7 +63,7 @@ public class DangNhapActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()) {
                                     Toast.makeText(DangNhapActivity.this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(DangNhapActivity.this, MainActivity.class);
+                                    Intent intent = new Intent(DangNhapActivity.this, DrawerNavigation.class);
                                     startActivity(intent);
                                     finish();
                                 } else {
