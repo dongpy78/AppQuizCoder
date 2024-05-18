@@ -66,6 +66,7 @@
         android:layout_height="wrap_content"/>
 
     <android.widget.Button
+        android:id="@+id/button_start"
         android:layout_marginTop="80dp"
         android:text="Start Quiz App"
         android:fontFamily="@font/nunito"
