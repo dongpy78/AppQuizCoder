@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content">
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="react_js"
+                    android:id="@+id/react_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="16dp"
                     android:layout_width="300dp"
@@ -87,7 +87,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="javascipt"
+                    android:id="@+id/javascript_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
                     android:layout_width="300dp"
@@ -110,7 +110,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="html"
+                    android:id="@+id/html_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
                     android:layout_width="300dp"
@@ -133,7 +133,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="python"
+                    android:id="@+id/python_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
                     android:layout_width="300dp"
@@ -156,7 +156,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="cplus"
+                    android:id="@+id/cplus_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
                     android:layout_width="300dp"
@@ -179,7 +179,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="java"
+                    android:id="@+id/java_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
                     android:layout_width="300dp"

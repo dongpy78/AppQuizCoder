@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppQuizCoder"
         tools:targetApi="31">
         <activity
+            android:name=".TongKetActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuestionsReactJS"
             android:exported="false" />
         <activity
