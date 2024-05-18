@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477303146369",
+    "project_id": "quizcoder-login-register",
+    "storage_bucket": "quizcoder-login-register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477303146369:android:9d37d213c13e9a8ff94a80",
+        "android_client_info": {
+          "package_name": "com.buivandong.appquizcoder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAljxGitkl4YgVgyl4k2axmGXPhMCj_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

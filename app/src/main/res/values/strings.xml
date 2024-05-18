@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">App Quiz Coder</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ng_k">Đăng Ký</string>
+    <string name="b_n_ch_a_c_t_i_kho_n">Bạn chưa có tài khoản?</string>
+    <string name="quizcoder">QUIZCODER</string>
 </resources>
