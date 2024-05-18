@@ -202,13 +202,13 @@ public class QuestionsReactJS extends AppCompatActivity {
         if(selectOption.getText().toString().equals(list.get(position).getCorrectAnswer())) {
             // corect
             score++;
-            selectOption.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#4CAF50")));
+            selectOption.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#1cb18a")));
             updateProgressBar();
         } else {
             // incorrect
-            selectOption.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
+            selectOption.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff6b6b")));
             Button correctOption = (Button) optionsContainer.findViewWithTag(list.get(position).getCorrectAnswer());
-            correctOption.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#4CAF50")));
+            correctOption.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#1cb18a")));
         }
 
         // Update score on UI
