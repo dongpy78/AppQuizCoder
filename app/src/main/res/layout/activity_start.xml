@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#229FB7"
+    android:padding="18dp"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@drawable/python"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@drawable/react_img"
+            android:layout_marginLeft="40dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@drawable/java"
+            android:layout_marginLeft="40dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@drawable/htmt"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@drawable/javascript"
+            android:layout_marginLeft="40dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@drawable/cplus"
+            android:layout_marginLeft="40dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="QUIZ CODER"
+        android:layout_width="match_parent"
+        android:textSize="58sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/ninito_extra_bold"
+        android:layout_height="wrap_content"/>
+
+    <android.widget.Button
+        android:layout_marginTop="80dp"
+        android:text="Start Quiz App"
+        android:fontFamily="@font/nunito"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_width="300dp"
+        android:background="@drawable/rounded_start_button"
+        android:layout_height="56dp"/>
+
+
+</LinearLayout>
