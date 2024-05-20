@@ -126,21 +126,13 @@ public class QuestionsPython extends AppCompatActivity {
     }
 
     private void list_questions() {
-        list.add(new QuestionModel("Which is the most popular JavaScript framework?", "Angular", "React", "Svelte", "Vue", "React"));
-        list.add(new QuestionModel("Which company invented React?", "Google", "Apple", "Netflix", "Facebook", "Facebook"));
-        list.add(new QuestionModel("What's the fundamental building block of React apps?", "Components", "Blocks", "Elements", "Effects", "Components"));
-        list.add(new QuestionModel("What's the name of the syntax we use to describe the UI in React components?", "FBJ", "Babel", "JSX", "ES2015", "JSX"));
-        list.add(new QuestionModel("How does data flow naturally in React apps?", "From parents to children", "From children to parents", "Both ways", "The developers decides", "From parents to children"));
-        list.add(new QuestionModel("How to pass data into a child component?", "State", "Props", "PropTypes", "Parameters", "Props"));
-//        list.add(new QuestionModelReactJS("When to use derived state?", "Whenever the state should not trigger a re-render", "Whenever the state can be synchronized with an effect", "Whenever the state should be accessible to all components", "Whenever the state can be computed from another state variable", "Whenever the state can be computed from another state variable"));
-//        list.add(new QuestionModelReactJS("What triggers a UI re-render in React?", "Running an effect", "Passing props", "Updating state", "Adding event listeners to DOM elements", "Updating state"));
-//        list.add(new QuestionModelReactJS("When do we directly \\\"touch\\\" the DOM in React?", "When we need to listen to an event", "When we need to change the UI", "When we need to add styles", "Almost never", "Almost never"));
-//        list.add(new QuestionModelReactJS("In what situation do we use a callback to update state?", "When updating the state will be slow", "When the updated state is very data-intensive", "When the state update should happen faster", "When the new state depends on the previous state", "When the new state depends on the previous state"));
-//        list.add(new QuestionModelReactJS("If we pass a function to useState, when will that function be called?", "On each re-render", "Each time we update the state", "Only on the initial render", "The first time we update the state", "Only on the initial render"));
-//        list.add(new QuestionModelReactJS("Which hook to use for an API request on the component's initial render?", "useState", "useEffect", "useRef", "useReducer", "useEffect"));
-//        list.add(new QuestionModelReactJS("Which variables should go into the useEffect dependency array?", "Usually none", "All our state variables", "All state and props referenced in the effect", "All variables needed for clean up", "All state and props referenced in the effect"));
-//        list.add(new QuestionModelReactJS("An effect will always run on the initial render.", "True", "It depends on the dependency array", "False", "In depends on the code in the effect", "True"));
-//        list.add(new QuestionModelReactJS("When will an effect run if it doesn't have a dependency array?", "Only when the component mounts", "Only when the component unmounts", "The first time the component re-renders", "Each time the component is re-rendered", "Each time the component is re-rendered"));
+        list.add(new QuestionModel("What is the output of this code ? x = [1,3,5]; print(x in x)", "[1,3,5]", "False", "Error", "True", "False"));
+        list.add(new QuestionModel("What is the output of this code ? x = 0b0010; print(x)", "0", "0b1010", "1", "2", "2"));
+        list.add(new QuestionModel("What is the output of this code ? print(2**(1==\"1\"))", "2", "1", "Error", "True", "1"));
+        list.add(new QuestionModel("Which of these variable names is valid ?", "print", "12foo", "good_days", "a-variable", "good_days"));
+        list.add(new QuestionModel("What is the output of this code ? var = \"70.0\"; print(int(var))", "Error", "\"70\"", "70", "70.0", "Error"));
+        list.add(new QuestionModel("What is the output of this code ? print(3**3%7)", "3", "0", "6", "Error", "6"));
+        list.add(new QuestionModel("What is the output of this code ? a = 'a'; print(type(a))", "<class 'varchar'>", "<class 'string'>", "<class 'str'>", "<class 'char'>", "<class 'str'>"));
 
         // XÁO TRỘN DANH SÁCH CÂU HỎI
         Collections.shuffle(list);

@@ -126,22 +126,12 @@ public class QuestionsJS extends AppCompatActivity {
     }
 
     private void list_questions() {
-        list.add(new QuestionModel("Which is the most popular JavaScript framework?", "Angular", "React", "Svelte", "Vue", "React"));
-        list.add(new QuestionModel("Which company invented React?", "Google", "Apple", "Netflix", "Facebook", "Facebook"));
-        list.add(new QuestionModel("What's the fundamental building block of React apps?", "Components", "Blocks", "Elements", "Effects", "Components"));
-        list.add(new QuestionModel("What's the name of the syntax we use to describe the UI in React components?", "FBJ", "Babel", "JSX", "ES2015", "JSX"));
-        list.add(new QuestionModel("How does data flow naturally in React apps?", "From parents to children", "From children to parents", "Both ways", "The developers decides", "From parents to children"));
-        list.add(new QuestionModel("How to pass data into a child component?", "State", "Props", "PropTypes", "Parameters", "Props"));
-//        list.add(new QuestionModelReactJS("When to use derived state?", "Whenever the state should not trigger a re-render", "Whenever the state can be synchronized with an effect", "Whenever the state should be accessible to all components", "Whenever the state can be computed from another state variable", "Whenever the state can be computed from another state variable"));
-//        list.add(new QuestionModelReactJS("What triggers a UI re-render in React?", "Running an effect", "Passing props", "Updating state", "Adding event listeners to DOM elements", "Updating state"));
-//        list.add(new QuestionModelReactJS("When do we directly \\\"touch\\\" the DOM in React?", "When we need to listen to an event", "When we need to change the UI", "When we need to add styles", "Almost never", "Almost never"));
-//        list.add(new QuestionModelReactJS("In what situation do we use a callback to update state?", "When updating the state will be slow", "When the updated state is very data-intensive", "When the state update should happen faster", "When the new state depends on the previous state", "When the new state depends on the previous state"));
-//        list.add(new QuestionModelReactJS("If we pass a function to useState, when will that function be called?", "On each re-render", "Each time we update the state", "Only on the initial render", "The first time we update the state", "Only on the initial render"));
-//        list.add(new QuestionModelReactJS("Which hook to use for an API request on the component's initial render?", "useState", "useEffect", "useRef", "useReducer", "useEffect"));
-//        list.add(new QuestionModelReactJS("Which variables should go into the useEffect dependency array?", "Usually none", "All our state variables", "All state and props referenced in the effect", "All variables needed for clean up", "All state and props referenced in the effect"));
-//        list.add(new QuestionModelReactJS("An effect will always run on the initial render.", "True", "It depends on the dependency array", "False", "In depends on the code in the effect", "True"));
-//        list.add(new QuestionModelReactJS("When will an effect run if it doesn't have a dependency array?", "Only when the component mounts", "Only when the component unmounts", "The first time the component re-renders", "Each time the component is re-rendered", "Each time the component is re-rendered"));
-
+        list.add(new QuestionModel("What will the following code return: Boolean(10 > 9)?", "false", "true", "NaN", "1", "true"));
+        list.add(new QuestionModel("Which event occurs when the user clicks on an HTML element?", "onmouseclick", "onmouseover", "onclick", "onchange", "onclick"));
+        list.add(new QuestionModel("How do you find the number with the highest value of x and y?", "ceil(x, y)", "Math.ceil(x, y)", "Math.max(x, y)", "top(x, y)", "Math.max(x, y)"));
+        list.add(new QuestionModel("How to write an IF statement in JavaScript ?", "if (i == 5)", "if i = 5", "if i = 5 then", "if i == 5 then", "if (i == 5)"));
+        list.add(new QuestionModel("How do you write \"Hello World\" in an alert box?", "alertBox(\"Hello World\");", "msgBox(\"Hello World\")", "msg(\"Hello World\");", "alert(\"Hello World\");", "alert(\"Hello World\");"));
+        list.add(new QuestionModel("Inside which HTML element do we put the JavaScript ?", "<javascript>", "<script>", "<scripting>", "<js>", "<script>"));
         // XÁO TRỘN DANH SÁCH CÂU HỎI
         Collections.shuffle(list);
     }
