@@ -255,7 +255,7 @@ public class QuestionsJS extends AppCompatActivity {
             editor.apply();
         }
 
-        Intent intent = new Intent(QuestionsReactJS.this, TongKetActivity.class);
+        Intent intent = new Intent(QuestionsJS.this, TongKetActivity.class);
         intent.putExtra("PERCENT_ACHIEVE", scorePercentage);
         intent.putExtra("HIGH_SCORE", highScore); // Truyền điểm cao nhất sang activity khác
         startActivity(intent);
@@ -298,8 +298,4 @@ public class QuestionsJS extends AppCompatActivity {
         int progress = (int) (((double) score / list.size()) * 100);
         progressBar.setProgress(progress);
     }
-
-
-
-
 }
