@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AppQuizCoder"
         tools:targetApi="31">
         <activity
+            android:name=".QuestionsC"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsJava"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsPython"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsHTML"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsJS"
+            android:exported="false" />
+        <activity
             android:name=".TongKetActivity"
             android:exported="false" />
         <activity

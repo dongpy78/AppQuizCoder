@@ -27,32 +27,32 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:text="Are You Ready To"
+                    android:text="@string/are_you_ready_to"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="#24B8C3"
-                    android:fontFamily="@font/nunito"
-                    android:textSize="36sp"
+                    android:fontFamily="@font/ninito_extra_bold"
+                    android:textSize="32sp"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:text="Challenger YourSelf"
+                    android:text="@string/challenger_yourself"
                     android:textStyle="bold"
                     android:textColor="#DD1818 "
-                    android:fontFamily="@font/nunito"
+                    android:fontFamily="@font/ninito_extra_bold"
                     android:textAlignment="center"
-                    android:textSize="34sp"
+                    android:textSize="32sp"
                     android:layout_height="wrap_content"/>
 
                 <TextView
                     android:layout_marginTop="12dp"
                     android:layout_width="match_parent"
-                    android:text="Select your favourite topic!"
+                    android:text="@string/select_your_favourite_topic"
                     android:textStyle="bold"
                     android:textColor="#38EF7D "
-                    android:fontFamily="@font/nunito"
+                    android:fontFamily="@font/ninito_extra_bold"
                     android:textAlignment="center"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
 
@@ -66,34 +66,33 @@
                     android:id="@+id/react_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="16dp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="130dp"
                     android:layout_weight="1">
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/bg_gradient_card"/>
+                        android:background="@drawable/bg_gradient_card" />
 
                     <ImageView
                         android:src="@drawable/react_img"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
-
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/javascript_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="130dp"
                     android:layout_weight="1">
 
                     <View
@@ -105,18 +104,18 @@
                         android:src="@drawable/javascript"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/html_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="130dp"
                     android:layout_weight="1">
 
                     <View
@@ -128,18 +127,18 @@
                         android:src="@drawable/htmt"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/python_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="130dp"
                     android:layout_weight="1">
 
                     <View
@@ -151,18 +150,18 @@
                         android:src="@drawable/python"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cplus_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="130dp"
                     android:layout_weight="1">
 
                     <View
@@ -174,18 +173,18 @@
                         android:src="@drawable/cplus"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/java_card"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="130dp"
                     android:layout_weight="1">
 
                     <View
@@ -197,8 +196,8 @@
                         android:src="@drawable/java"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"/>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>

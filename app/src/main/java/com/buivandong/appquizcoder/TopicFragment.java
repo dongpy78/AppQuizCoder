@@ -32,6 +32,46 @@ public class TopicFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        javascriptCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(requireActivity(), QuestionsJS.class);
+                startActivity(intent);
+            }
+        });
+
+        htmlCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(requireActivity(), QuestionsHTML.class);
+                startActivity(intent);
+            }
+        });
+
+        pythonCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(requireActivity(), QuestionsPython.class);
+                startActivity(intent);
+            }
+        });
+
+        cplusCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(requireActivity(), QuestionsC.class);
+                startActivity(intent);
+            }
+        });
+
+        javaCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(requireActivity(), QuestionsJava.class);
+                startActivity(intent);
+            }
+        });
         return view;
     }
 }

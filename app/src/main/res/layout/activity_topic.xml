@@ -65,10 +65,10 @@
                     android:onClick="react_js"
                     android:layout_gravity="center"
                     app:cardCornerRadius="16dp"
-                    android:layout_width="300dp"
+                    android:layout_width="280dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="140dp"
                     android:layout_weight="1">
 
                     <View
@@ -80,8 +80,8 @@
                         android:src="@drawable/react_img"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
 
 
@@ -89,10 +89,10 @@
                     android:onClick="javascipt"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="280dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="140dp"
                     android:layout_weight="1">
 
                     <View
@@ -104,18 +104,18 @@
                         android:src="@drawable/javascript"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:onClick="html"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="280dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="140dp"
                     android:layout_weight="1">
 
                     <View
@@ -127,18 +127,18 @@
                         android:src="@drawable/htmt"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:onClick="python"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="280dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="140dp"
                     android:layout_weight="1">
 
                     <View
@@ -150,18 +150,18 @@
                         android:src="@drawable/python"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:onClick="cplus"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="280dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="140dp"
                     android:layout_weight="1">
 
                     <View
@@ -173,18 +173,18 @@
                         android:src="@drawable/cplus"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:onClick="java"
                     android:layout_gravity="center"
                     app:cardCornerRadius="14dp"
-                    android:layout_width="300dp"
+                    android:layout_width="280dp"
                     android:layout_margin="10dp"
                     app:cardElevation="6dp"
-                    android:layout_height="144dp"
+                    android:layout_height="140dp"
                     android:layout_weight="1">
 
                     <View
@@ -196,8 +196,8 @@
                         android:src="@drawable/java"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"/>
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>

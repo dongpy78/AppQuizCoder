@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#229FB7"
-    android:padding="18dp"
+    android:padding="20dp"
     android:orientation="vertical"
     android:layout_marginTop="40dp"
 
@@ -15,22 +15,22 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:src="@drawable/python"
-            android:layout_height="80dp"/>
+            android:layout_height="70dp"/>
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:src="@drawable/react_img"
             android:layout_marginLeft="40dp"
-            android:layout_height="80dp"/>
+            android:layout_height="70dp"/>
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:src="@drawable/java"
             android:layout_marginLeft="40dp"
-            android:layout_height="80dp"/>
+            android:layout_height="70dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -40,28 +40,28 @@
         android:layout_marginTop="40dp"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:src="@drawable/htmt"
-            android:layout_height="80dp"/>
+            android:layout_height="70dp"/>
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:src="@drawable/javascript"
             android:layout_marginLeft="40dp"
-            android:layout_height="80dp"/>
+            android:layout_height="70dp"/>
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:src="@drawable/cplus"
             android:layout_marginLeft="40dp"
-            android:layout_height="80dp"/>
+            android:layout_height="70dp"/>
     </LinearLayout>
 
     <TextView
         android:text="QUIZ CODER"
         android:layout_width="match_parent"
-        android:textSize="58sp"
+        android:textSize="50sp"
         android:textColor="#fff"
         android:gravity="center"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/ninito_extra_bold"
         android:layout_height="wrap_content"/>
 
@@ -72,12 +72,13 @@
         android:fontFamily="@font/nunito"
         android:textColor="#fff"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:layout_gravity="center"
+        android:padding="20dp"
         android:textAllCaps="false"
-        android:layout_width="300dp"
-        android:background="@drawable/rounded_start_button"
-        android:layout_height="56dp"/>
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg_button_next_exit"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
